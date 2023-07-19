@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		741FE5A62A5DE2F000BDF266 /* ViewModifierBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741FE5A52A5DE2F000BDF266 /* ViewModifierBootcamp.swift */; };
+		74DA3A502A6877910081C5FB /* UnitTestingBootcampView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DA3A4F2A6877910081C5FB /* UnitTestingBootcampView.swift */; };
 		74E49ED02A12C25700D1DCA6 /* SwiftfulThinkingALApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E49ECF2A12C25700D1DCA6 /* SwiftfulThinkingALApp.swift */; };
 		74E49ED42A12C25800D1DCA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74E49ED32A12C25800D1DCA6 /* Assets.xcassets */; };
 		74E49ED72A12C25800D1DCA6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74E49ED62A12C25800D1DCA6 /* Preview Assets.xcassets */; };
@@ -15,6 +16,7 @@
 
 /* Begin PBXFileReference section */
 		741FE5A52A5DE2F000BDF266 /* ViewModifierBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierBootcamp.swift; sourceTree = "<group>"; };
+		74DA3A4F2A6877910081C5FB /* UnitTestingBootcampView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingBootcampView.swift; sourceTree = "<group>"; };
 		74E49ECC2A12C25700D1DCA6 /* SwiftfulThinkingAL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfulThinkingAL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74E49ECF2A12C25700D1DCA6 /* SwiftfulThinkingALApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulThinkingALApp.swift; sourceTree = "<group>"; };
 		74E49ED32A12C25800D1DCA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -32,6 +34,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		74DA3A4E2A6877660081C5FB /* UnitTestingBootcamp */ = {
+			isa = PBXGroup;
+			children = (
+				74DA3A4F2A6877910081C5FB /* UnitTestingBootcampView.swift */,
+			);
+			path = UnitTestingBootcamp;
+			sourceTree = "<group>";
+		};
 		74E49EC32A12C25700D1DCA6 = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +63,7 @@
 			children = (
 				74E49ECF2A12C25700D1DCA6 /* SwiftfulThinkingALApp.swift */,
 				741FE5A52A5DE2F000BDF266 /* ViewModifierBootcamp.swift */,
+				74DA3A4E2A6877660081C5FB /* UnitTestingBootcamp */,
 				74E49ED32A12C25800D1DCA6 /* Assets.xcassets */,
 				74E49ED52A12C25800D1DCA6 /* Preview Content */,
 			);
@@ -139,6 +150,7 @@
 			files = (
 				741FE5A62A5DE2F000BDF266 /* ViewModifierBootcamp.swift in Sources */,
 				74E49ED02A12C25700D1DCA6 /* SwiftfulThinkingALApp.swift in Sources */,
+				74DA3A502A6877910081C5FB /* UnitTestingBootcampView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
