@@ -6,3 +6,15 @@
 //
 
 import Foundation
+import SwiftUI
+
+class UnitTestingBootcampViewModel: ObservableObject {
+    
+    @Published var isPremium: Bool
+    
+    init(isPremium: Bool) {
+        self.isPremium = isPremium
+    }
+    
+}
+
