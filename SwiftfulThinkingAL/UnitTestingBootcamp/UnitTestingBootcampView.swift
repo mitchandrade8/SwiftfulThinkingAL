@@ -31,6 +31,9 @@ struct UnitTestingBootcampView: View {
     }
 }
 
-#Preview {
-    UnitTestingBootcampView(isPremium: true)
+struct UnitTestingBootcampView_Previews: PreviewProvider {
+    static var previews: some View {
+        UnitTestingBootcampView(isPremium: true)
+    }
 }
+
