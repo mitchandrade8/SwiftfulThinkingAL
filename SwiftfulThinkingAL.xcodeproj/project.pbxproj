@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		741FE5A62A5DE2F000BDF266 /* ViewModifierBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741FE5A52A5DE2F000BDF266 /* ViewModifierBootcamp.swift */; };
+		74938F862A79C42700E7BE45 /* UnitTestingBootcampViewModel_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74938F852A79C42700E7BE45 /* UnitTestingBootcampViewModel_Tests.swift */; };
 		74DA3A502A6877910081C5FB /* UnitTestingBootcampView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DA3A4F2A6877910081C5FB /* UnitTestingBootcampView.swift */; };
 		74DA3A522A687D890081C5FB /* UnitTestingBootcampViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DA3A512A687D890081C5FB /* UnitTestingBootcampViewModel.swift */; };
 		74DA3A5A2A687E360081C5FB /* SwiftfulThinkingALTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DA3A592A687E360081C5FB /* SwiftfulThinkingALTests.swift */; };
@@ -28,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		741FE5A52A5DE2F000BDF266 /* ViewModifierBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierBootcamp.swift; sourceTree = "<group>"; };
+		74938F852A79C42700E7BE45 /* UnitTestingBootcampViewModel_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingBootcampViewModel_Tests.swift; sourceTree = "<group>"; };
 		74DA3A4F2A6877910081C5FB /* UnitTestingBootcampView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingBootcampView.swift; sourceTree = "<group>"; };
 		74DA3A512A687D890081C5FB /* UnitTestingBootcampViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingBootcampViewModel.swift; sourceTree = "<group>"; };
 		74DA3A572A687E360081C5FB /* SwiftfulThinkingALTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftfulThinkingALTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				74DA3A592A687E360081C5FB /* SwiftfulThinkingALTests.swift */,
+				74938F852A79C42700E7BE45 /* UnitTestingBootcampViewModel_Tests.swift */,
 			);
 			path = SwiftfulThinkingALTests;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74938F862A79C42700E7BE45 /* UnitTestingBootcampViewModel_Tests.swift in Sources */,
 				74DA3A5A2A687E360081C5FB /* SwiftfulThinkingALTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,7 +338,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -388,7 +392,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

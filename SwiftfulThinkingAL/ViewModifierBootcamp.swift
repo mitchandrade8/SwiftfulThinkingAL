@@ -51,6 +51,9 @@ struct ViewModifierBootcamp: View {
     }
 }
 
-#Preview {
-    ViewModifierBootcamp()
+struct ViewModifierBootcamp_Previews: PreviewProvider {
+    static var previews: some View {
+        ViewModifierBootcamp()
+    }
 }
+
