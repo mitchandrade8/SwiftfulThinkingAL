@@ -16,6 +16,7 @@
 		74E49ED02A12C25700D1DCA6 /* SwiftfulThinkingALApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E49ECF2A12C25700D1DCA6 /* SwiftfulThinkingALApp.swift */; };
 		74E49ED42A12C25800D1DCA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74E49ED32A12C25800D1DCA6 /* Assets.xcassets */; };
 		74E49ED72A12C25800D1DCA6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74E49ED62A12C25800D1DCA6 /* Preview Assets.xcassets */; };
+		74EF1BCD2A7A083B0063D3FF /* GenericsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EF1BCC2A7A083B0063D3FF /* GenericsBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		74E49ECF2A12C25700D1DCA6 /* SwiftfulThinkingALApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulThinkingALApp.swift; sourceTree = "<group>"; };
 		74E49ED32A12C25800D1DCA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74E49ED62A12C25800D1DCA6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		74EF1BCC2A7A083B0063D3FF /* GenericsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				74E49ECF2A12C25700D1DCA6 /* SwiftfulThinkingALApp.swift */,
 				741FE5A52A5DE2F000BDF266 /* ViewModifierBootcamp.swift */,
 				74C4EA932A79D1BF00D4F4CC /* ButtonStyleBootcamp.swift */,
+				74EF1BCC2A7A083B0063D3FF /* GenericsBootcamp.swift */,
 				74DA3A4E2A6877660081C5FB /* UnitTestingBootcamp */,
 				74E49ED32A12C25800D1DCA6 /* Assets.xcassets */,
 				74E49ED52A12C25800D1DCA6 /* Preview Content */,
@@ -228,6 +231,7 @@
 			files = (
 				74DA3A522A687D890081C5FB /* UnitTestingBootcampViewModel.swift in Sources */,
 				74C4EA942A79D1BF00D4F4CC /* ButtonStyleBootcamp.swift in Sources */,
+				74EF1BCD2A7A083B0063D3FF /* GenericsBootcamp.swift in Sources */,
 				741FE5A62A5DE2F000BDF266 /* ViewModifierBootcamp.swift in Sources */,
 				74E49ED02A12C25700D1DCA6 /* SwiftfulThinkingALApp.swift in Sources */,
 				74DA3A502A6877910081C5FB /* UnitTestingBootcampView.swift in Sources */,
